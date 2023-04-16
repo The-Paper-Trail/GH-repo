@@ -26,7 +26,7 @@ our project is like a shopping website for books where the user after opening sh
 
 - sending the user to website where he can buy the book
 
-the app should show detils about the books and allow the user to 
+- the app should show detils about the books and allow the user to 
 
 ### Out
 
@@ -52,6 +52,11 @@ the app should show detils about the books and allow the user to
 adding a user table and making the app know the list for what user
 
 ## Functional Requirements
+
+1. user can create his account
+2. user can update his description and profile image
+3. user can add a book to favorit list
+4. user can delete a book from favorit list
 
 ## Data Flow
 
