@@ -4,11 +4,11 @@
 
 ### What is the vision of this product?
 
-the project show lead the user to where you can buy the book, and add to favorit list.
+the project show lead the user to where you can buy the book, and add to favorite list.
 
 ### What pain point does this project solve?
 
-minimize the time for looking for books and having a tracker to your favorit books.
+minimize the time for looking for books and having a tracker to your favorite books.
 
 ### Why should we care about your product?
 
@@ -60,6 +60,15 @@ adding a user table and making the app know the list for what user
 
 ## Data Flow
 
-## Non-Functional Requirements
+at home page the site send a requist to the back_end to get books from the database.
+
+if the user isn't login he have to log in so he send a requist to the back_end to get user sending with his/her email and password after that the user info will be send back to the front_end.
+
+if the user don't have an account he should make an account by sending a requist to the back_end with his/her email and a username, password after that after taht it add the info to the user table
+
+in favorite list the webapp send a requist to the back end to get books from the table favorite book list where the list id = list id for the user
 
 ## Non-Functional Requirements
+
+1. Performance: our web app is faster and can handle multiple requists because we get the data from the api and add them in the database so when the user open the home page the books info will be from the the database not the api so the server internet connection doesn't matter.
+2. Reliability: our web app can handle all the error from his side or the client side so the chance of of getting a failure is low, we handled the database error too.
